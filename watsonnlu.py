@@ -1,5 +1,18 @@
+import os
+from dotenv import load_dotenv, find_dotenv
+load_dotenv(find_dotenv())
+
+from watson_developer_cloud import NaturalLanguageUnderstandingV1
+import watson_developer_cloud.natural_language_understanding.features.v1 as features
+
 import spacy
 nlp = spacy.load('en')
+
+
+NLU_USERNAME = os.environ.get("NLU_USERNAME")
+NLU_PASSWORD = os.environ.get("NLU_PASSWORD")
+
+natural_language_understanding = NaturalLanguageUnderstandingV1(version='2017-02-27', username=NLU_USERNAME, password=NLU_PASSWORD)
 
 nlu=[]
 for i in xrange(mydata.shape[0]):
