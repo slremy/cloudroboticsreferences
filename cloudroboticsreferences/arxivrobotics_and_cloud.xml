@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3Dall%3Acloud%20AND%20robotics%26id_list%3D%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=all:cloud AND robotics&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/hmpd7GWBAdDCewPkdPgGPXxUf88</id>
+  <updated>2017-05-11T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">102</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1701.03608v1</id>
+    <updated>2017-01-13T09:57:11Z</updated>
+    <published>2017-01-13T09:57:11Z</published>
+    <title>Towards An Architecture-Centric Approach to Manage Variability of Cloud
+  Robotics</title>
+    <summary>  Cloud robotics is a field of robotics that attempts to invoke Cloud
+technologies such as Cloud computing, Cloud storage, and other Internet
+technologies centered around the benefits of converged infrastructure and
+shared services for robotics. In a few short years, Cloud robotics as a newly
+emerged field has already received much research and industrial attention. The
+use of the Cloud for robotics and automation brings some potential benefits
+largely ameliorating the performance of robotic systems. However, there are
+also some challenges. First of all, from the viewpoint of architecture, how to
+model and describe the architectures of Cloud robotic systems? How to manage
+the variability of Cloud robotic systems? How to maximize the reuse of their
+architectures? In this paper, we present an architecture approach to easily
+design and understand Cloud robotic systems and manage their variability.
+</summary>
+    <author>
+      <name>Lei Zhang</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">Yulin</arxiv:affiliation>
+    </author>
+    <author>
+      <name> Huaxi</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">Yulin</arxiv:affiliation>
+    </author>
+    <author>
+      <name> Zhang</name>
+    </author>
+    <author>
+      <name>Zheng Fang</name>
+    </author>
+    <author>
+      <name>Xianbo Xiang</name>
+    </author>
+    <author>
+      <name>Marianne Huchard</name>
+    </author>
+    <author>
+      <name>Rene Zapata</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Presented at DSLRob 2015 (arXiv:1601.00877)</arxiv:comment>
+    <link href="http://arxiv.org/abs/1701.03608v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1701.03608v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1701.08444v1</id>
+    <updated>2017-01-29T22:27:15Z</updated>
+    <published>2017-01-29T22:27:15Z</published>
+    <title>A review on cloud robotics based frameworks to solve simultaneous
+  localization and mapping (slam) problem</title>
+    <summary>  Cloud Robotics is one of the emerging area of robotics. It has created a lot
+of attention due to its direct practical implications on Robotics. In Cloud
+Robotics, the concept of cloud computing is used to offload computational
+extensive jobs of the robots to the cloud. Apart from this, additional
+functionalities can also be offered on run to the robots on demand.
+Simultaneous Localization and Mapping (SLAM) is one of the computational
+intensive algorithm in robotics used by robots for navigation and map building
+in an unknown environment. Several Cloud based frameworks are proposed
+specifically to address the problem of SLAM, DAvinCi, Rapyuta and C2TAM are
+some of those framework. In this paper, we presented a detailed review of all
+these framework implementation for SLAM problem.
+</summary>
+    <author>
+      <name>Rajesh Doriya</name>
+    </author>
+    <author>
+      <name>Paresh Sao</name>
+    </author>
+    <author>
+      <name>Vinit Payal</name>
+    </author>
+    <author>
+      <name>Vibhav Anand</name>
+    </author>
+    <author>
+      <name>Pavan Chakraborty</name>
+    </author>
+    <link href="http://arxiv.org/abs/1701.08444v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1701.08444v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1607.05402v1</id>
+    <updated>2016-07-19T04:59:46Z</updated>
+    <published>2016-07-19T04:59:46Z</published>
+    <title>Web Based Teleoperation of a Humanoid Robot</title>
+    <summary>  The Cloud-based Advanced Robotics Laboratory (CARL) integrates a whole body
+controller and web-based teleoperation to enable any device with a web browser
+to access and control a humanoid robot. By integrating humanoid robots with the
+cloud, they are accessible from any Internet-connected device. Increased
+accessibility is important because few people have access to state-of-the-art
+humanoid robots limiting their rate of development. CARL's implementation is
+based on modern software libraries, frameworks, and middleware including
+Node.js, Socket.IO, ZMQ, ROS, Robot Web Tools, and ControlIt! Feasibility is
+demonstrated by having inexperienced human operators use a smartphone's
+web-browser to control Dreamer, a torque-controlled humanoid robot based on
+series elastic actuators, and make it perform a dual-arm manipulation task. The
+implementation serves as a proof-of-concept and foundation upon which many
+advanced humanoid robot technologies can be researched and developed.
+</summary>
+    <author>
+      <name>Chien Liang Fok</name>
+    </author>
+    <author>
+      <name>Fei Sun</name>
+    </author>
+    <author>
+      <name>Matt Mangum</name>
+    </author>
+    <author>
+      <name>Al Mok</name>
+    </author>
+    <author>
+      <name>Binghan He</name>
+    </author>
+    <author>
+      <name>Luis Sentis</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">17 pages, 6 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1607.05402v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1607.05402v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1704.04797v1</id>
+    <updated>2017-04-16T17:25:53Z</updated>
+    <published>2017-04-16T17:25:53Z</published>
+    <title>Setting Up Pepper For Autonomous Navigation And Personalized Interaction
+  With Users</title>
+    <summary>  In this paper we present our work with the Pepper robot, a service robot from
+SoftBank Robotics. We had two main goals in this work: improving the autonomy
+of this robot by increasing its awareness of the environment; and enhance the
+robot ability to interact with its users. To achieve this goals, we used ROS, a
+modern open-source framework for developing robotics software, to provide
+Pepper with state of the art localization and navigation capabilities.
+Furthermore, we contribute an architecture for effective human interaction
+based on cloud services. Our architecture improves Pepper speech recognition
+capabilities by connecting it to the IBM Bluemix Speech Recognition service and
+enable the robot to recognize its user via an in-house face recognition
+web-service. We show examples of our successful integration of ROS and IBM
+services with Pepper's own software. As a result, we were able to make Pepper
+move autonomously in a environment with humans and obstacles. We were also able
+to have Pepper execute spoken commands from known users as well as newly
+introduced users that were enrolled in the robot list of trusted users via a
+multi-modal interface.
+</summary>
+    <author>
+      <name>Vittorio Perera</name>
+    </author>
+    <author>
+      <name>Tiago Pereira</name>
+    </author>
+    <author>
+      <name>Jonathan Connell</name>
+    </author>
+    <author>
+      <name>Manuela Veloso</name>
+    </author>
+    <link href="http://arxiv.org/abs/1704.04797v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1704.04797v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1112.2026v1</id>
+    <updated>2011-12-09T06:59:00Z</updated>
+    <published>2011-12-09T06:59:00Z</published>
+    <title>Future Robotics Database Management System along with Cloud TPS</title>
+    <summary>  This paper deals with memory management issues of robotics. In our proposal
+we break one of the major issues in creating humanoid. . Database issue is the
+complicated thing in robotics schema design here in our proposal we suggest new
+concept called NOSQL database for the effective data retrieval, so that the
+humanoid robots will get the massive thinking ability in searching each items
+using chained instructions. For query transactions in robotics we need an
+effective consistency transactions so by using latest technology called
+CloudTPS which guarantees full ACID properties so that the robot can make their
+queries using multi-item transactions through this we obtain data consistency
+in data retrievals. In addition we included map reduce concepts it can splits
+the job to the respective workers so that it can process the data in a parallel
+way.
+</summary>
+    <author>
+      <name>Vijaykumar S</name>
+    </author>
+    <author>
+      <name>Saravanakumar S G</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">12 pages,5 figures,First model; International Journal on Cloud
+  Computing: Services and Architecture(IJCCSA),Vol.1, No.3, November 2011</arxiv:comment>
+    <link href="http://arxiv.org/abs/1112.2026v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1112.2026v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1312.2822v1</id>
+    <updated>2013-12-10T14:57:18Z</updated>
+    <published>2013-12-10T14:57:18Z</published>
+    <title>3D Maps Registration and Path Planning for Autonomous Robot Navigation</title>
+    <summary>  Mobile robots dedicated in security tasks should be capable of clearly
+perceiving their environment to competently navigate within cluttered areas, so
+as to accomplish their assigned mission. The paper in hand describes such an
+autonomous agent designed to deploy competently in hazardous environments
+equipped with a laser scanner sensor. During the robot's motion, consecutive
+scans are obtained to produce dense 3D maps of the area. A 3D point cloud
+registration technique is exploited to merge the successively created maps
+during the robot's motion followed by an ICP refinement step. The reconstructed
+3D area is then top-down projected with great resolution, to be fed in a path
+planning algorithm suitable to trace obstacle-free trajectories in the explored
+area. The main characteristic of the path planner is that the robot's
+embodiment is considered for producing detailed and safe trajectories of $1$
+$cm$ resolution. The proposed method has been evaluated with our mobile robot
+in several outdoor scenarios revealing remarkable performance.
+</summary>
+    <author>
+      <name>Konstantinos Charalampous</name>
+    </author>
+    <author>
+      <name>Ioannis Kostavelis</name>
+    </author>
+    <author>
+      <name>Dimitrios Chrysostomou</name>
+    </author>
+    <author>
+      <name>Angelos Amanatiadis</name>
+    </author>
+    <author>
+      <name>Antonios Gasteratos</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">3 pages, 6 figures, IROS'13 Workshop on Robots and Sensors
+  integration in future rescue INformation system (ROSIN'13)</arxiv:comment>
+    <link href="http://arxiv.org/abs/1312.2822v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1312.2822v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1302.3857v1</id>
+    <updated>2013-02-15T19:52:15Z</updated>
+    <published>2013-02-15T19:52:15Z</published>
+    <title>Technical Report: Cooperative Multi-Target Localization With Noisy
+  Sensors</title>
+    <summary>  This technical report is an extended version of the paper 'Cooperative
+Multi-Target Localization With Noisy Sensors' accepted to the 2013 IEEE
+International Conference on Robotics and Automation (ICRA).
+  This paper addresses the task of searching for an unknown number of static
+targets within a known obstacle map using a team of mobile robots equipped with
+noisy, limited field-of-view sensors. Such sensors may fail to detect a subset
+of the visible targets or return false positive detections. These measurement
+sets are used to localize the targets using the Probability Hypothesis Density,
+or PHD, filter. Robots communicate with each other on a local peer-to-peer
+basis and with a server or the cloud via access points, exchanging measurements
+and poses to update their belief about the targets and plan future actions. The
+server provides a mechanism to collect and synthesize information from all
+robots and to share the global, albeit time-delayed, belief state to robots
+near access points. We design a decentralized control scheme that exploits this
+communication architecture and the PHD representation of the belief state.
+Specifically, robots move to maximize mutual information between the target set
+and measurements, both self-collected and those available by accessing the
+server, balancing local exploration with sharing knowledge across the team.
+Furthermore, robots coordinate their actions with other robots exploring the
+same local region of the environment.
+</summary>
+    <author>
+      <name>Philip Dames</name>
+    </author>
+    <author>
+      <name>Vijay Kumar</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1109/ICRA.2013.6630825</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1109/ICRA.2013.6630825" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Extended version of paper accepted to 2013 IEEE International
+  Conference on Robotics and Automation (ICRA)</arxiv:comment>
+    <link href="http://arxiv.org/abs/1302.3857v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1302.3857v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1701.05453v1</id>
+    <updated>2017-01-19T15:02:18Z</updated>
+    <published>2017-01-19T15:02:18Z</published>
+    <title>Software Architectures for Robotics Systems: A Systematic Mapping Study</title>
+    <summary>  Software architecture related issues are important for robotic systems.
+Architecture centric development and evolution of software for robotic systems
+has been attracting researchers attention for more than two decades. The
+objective of this work is to systematically identify, taxonomically classify
+and holistically map existing solutions, research progress and trends that
+influence architecture-driven modeling, development and evolution of robotic
+software. We carried out a Systematic Mapping Study to identify and analyze the
+relevant literature based on 56 peer-reviewed papers. We extract and synthesize
+the data from selected papers to taxonomically classify the existing research
+and systematically map the solutions, frameworks, notations and evaluation
+methods to highlight the role of software architecture in robotic systems. We
+have identified eight distinct research themes that support architectural
+solutions to enable operations, evolution and development specific activities
+of robotic software. The research in this area has progressed from object
+oriented to component based and now to service driven robotics representing
+different architectural generations. The reported solutions have exploited
+model-driven, service oriented and reverse engineering techniques since 2005.
+An emerging trend is cloud robotics that exploits the foundations of service
+driven architectures to support an interconnected web of robots. The results of
+this SMS facilitate knowledge transfer, benefiting researchers and
+practitioners, focused on exploiting software architecture to model, develop
+and evolve robotic systems.
+</summary>
+    <author>
+      <name>Aakash Ahmad</name>
+    </author>
+    <author>
+      <name>Muhammad Ali Babar</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1016/j.jss.2016.08.039</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1016/j.jss.2016.08.039" rel="related"/>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Journal of Systems and Software, 122, pp. 16-39 (2016)</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1701.05453v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1701.05453v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1609.05247v1</id>
+    <updated>2016-09-16T21:50:37Z</updated>
+    <published>2016-09-16T21:50:37Z</published>
+    <title>Sequential View Grasp Detection For Inexpensive Robotic Arms</title>
+    <summary>  In this paper, we consider the idea of improving the performance of grasp
+detection by viewing an object to be grasped from a series of different
+perspectives. Grasp detection is an approach to perception for grasping whereby
+robotic grasp configurations are detected directly from point cloud or RGB
+sensor data. This paper focuses on the situation where the camera or depth
+senor is mounted near the robotic hand. In this context, there are at least two
+ways in which viewpoint can affect grasp performance. First, a "good" viewpoint
+might enable the robot to detect more/better grasps because it has a better
+view of graspable parts of an object. Second, by detecting grasps from arm
+configurations nearby the final grasp configuration, it might be possible to
+reduce the impact of kinematic modelling errors on the last stage of grasp
+synthesis just prior to contact. Both of these effects are particularly
+relevant to inexpensive robotic arms. We evaluate them experimentally both in
+simulation and on-line with a robot. We find that both of the effects mentioned
+above exist, but that the second one (reducing kinematic modelling errors)
+seems to have the most impact in practice.
+</summary>
+    <author>
+      <name>Marcus Gualtieri</name>
+    </author>
+    <author>
+      <name>Robert Platt</name>
+    </author>
+    <link href="http://arxiv.org/abs/1609.05247v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1609.05247v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1602.07641v1</id>
+    <updated>2016-02-24T19:17:11Z</updated>
+    <published>2016-02-24T19:17:11Z</published>
+    <title>NIMBUS: A Hybrid Cloud-Crowd Realtime Architecture for Visual Learning
+  in Interactive Domains</title>
+    <summary>  Robotic architectures that incorporate cloud-based resources are just now
+gaining popularity. However, researchers have very few investigations into
+their capabilities to support claims of their feasibility. We propose a novel
+method to exchange quality for speed of response. Further, we back this
+assertion with empirical findings from experiments performed with Amazon
+Mechanical Turk and find that our method improves quality in exchange for
+response time in our cognitive architecture.
+</summary>
+    <author>
+      <name>Nick DePalma</name>
+    </author>
+    <author>
+      <name>Cynthia Breazeal</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Presented at "2nd Workshop on Cognitive Architectures for Social
+  Human-Robot Interaction 2016 (arXiv:1602.01868)"</arxiv:comment>
+    <link href="http://arxiv.org/abs/1602.07641v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1602.07641v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>
